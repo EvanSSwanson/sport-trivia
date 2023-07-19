@@ -1,106 +1,43 @@
 .Header {
     display: flex;
-    font-family: "Wellfleet";
+    font-family: "Fugaz One";
     width: 100%;
   }
   
-  .banner, .login-banner {
+  .banner {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    background-color: #5e2222;
+    justify-content: space-around;
+    background-color: #48b7df;
     width: 100%;
     height: 6vw;
+    min-height: 75px;
   }
   
-  .header-right {
-    display: flex;
-  }
-  
-  .login-banner {
-    justify-content: center;
-  }
-  
-  .title, .static-title {
+  .title-1 {
     color: #ffffff;
     margin-left: 3vw;
-    font-size: 3.75vw;
+    font-size:calc(45px + 1.2vw);
     cursor: default;
+    -webkit-text-stroke: 0.008vw #f99427;
   }
   
-  .static-title {
-    margin-left: 0vw;
-  }
-  
-  .title-r, .static-title-r{
-    color: #f18b1c;
+  .title-2 {
+    color: #f99427;
     cursor: default;
-  }
-  
-  .title:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: all ease-in-out 0.3s;
-    -webkit-text-stroke: 0.008vw #f18b1c;
-  }
-  
-  .title:hover > .title-r,
-  .title-r:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: all ease-in-out 0.3s;
     -webkit-text-stroke: 0.008vw #ffffff;
   }
   
-  .header-right {
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  
-  .saved-page-button {
-    font-family:"Marcellus";
-    font-size: 1.5vw;
-    color:#ffffff;
-    background-color: #f18b1c;
-    width: 10vw;
-    border-radius: .7vw;
-    margin-right: 1vw;
-  }
-  
-  .account-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 1vw;
-  }
-  
-  .welcome-user {
-    font-family:"Marcellus";
-    font-size: 1.5vw;
-    color:#ffffff;
-    height: 1.75vw;
-    margin-top: -1vw;
-    cursor: default;
-  }
-  
-  .sign-out {
-    height: 2vw;
-    font-size: 1vw;
-    font-family: "Marcellus";
-    color:#ffffff;
-    background-color:#f18b1c;
-    border: none;
-    border-radius: .7vw;
-    margin-left: .5vw;
+  .title-1:hover {
     cursor: pointer;
-  }
-  
-  .sign-out:hover, .saved-page-button:hover{
-    cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: all ease-in-out 0.3s;
-    background-color:#c87216;
+  }
+  
+  .title-1:hover > .title-2,
+  .title-2:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all ease-in-out 0.3s;
   }
