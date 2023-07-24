@@ -2,12 +2,16 @@ import React from 'react';
 import logo from '../../logo.svg';
 import './Homepage.css';
 
-const HomePage = () => {
+const Homepage = () => {
   return (
-    <div className="HomePage">
-      <h1>hello</h1>
+    <div className='Homepage'>
+        <div className='bar-left'></div>
+        <div className='central-homepage'>
+            <h1 className='select-title'>Select a Topic</h1>
+        </div>
+        <div className='bar-right'></div>
     </div>
   );
 }
 
-export default HomePage;
+export default Homepage;
