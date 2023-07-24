@@ -1,6 +1,6 @@
 .Header {
     display: flex;
-    font-family: "Fugaz One";
+    font-family: 'Fugaz One';
     width: 100%;
   }
   
@@ -17,7 +17,6 @@
   
   .title-1 {
     color: #ffffff;
-    margin-left: 3vw;
     font-size:calc(45px + 1.2vw);
     cursor: default;
     -webkit-text-stroke: 0.008vw #f99427;
